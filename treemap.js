@@ -1,4 +1,3 @@
-Monim error 1001
 
 ! function(t, n) {
     "object" == typeof exports && "object" == typeof module ? module.exports = n() : "function" == typeof define && define.amd ? define([], n) : "object" == typeof exports ? exports.treemap = n() : t.treemap = n()
